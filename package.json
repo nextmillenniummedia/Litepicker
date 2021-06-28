@@ -1,5 +1,5 @@
 {
-  "name": "ave-datepicker",
+  "name": "ave-litepicker",
   "version": "2.0.11",
   "description": "Date range picker - lightweight, no dependencies",
   "main": "./dist/litepicker.umd.js",
@@ -24,16 +24,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nextmillenniummedia/ave-datepicker.git"
+    "url": "https://github.com/nextmillenniummedia/ave-litepicker.git"
   },
   "author": {
     "name": "Rinat G.",
     "email": "litepicker@lvl.ninja",
     "url": "https://lvl.ninja"
   },
-  "homepage": "https://github.com/nextmillenniummedia/ave-datepicker",
+  "homepage": "https://github.com/nextmillenniummedia/ave-litepicker",
   "bugs": {
-    "url": "https://github.com/nextmillenniummedia/ave-datepicker/issues"
+    "url": "https://github.com/nextmillenniummedia/ave-litepicker/issues"
   },
   "license": "MIT",
   "dependencies": {},
