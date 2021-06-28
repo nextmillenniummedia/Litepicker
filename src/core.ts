@@ -31,7 +31,7 @@ export class LPCore extends EventEmitter {
     endDate: null,
     zIndex: 9999,
     position: 'auto',
-
+    renderMonthName: null,
     selectForward: false,
     selectBackward: false,
     splitView: false,
@@ -96,6 +96,8 @@ export class LPCore extends EventEmitter {
     this.options.dropdowns = { ...dropdowns };
     this.options.buttonText = { ...buttonText };
     this.options.tooltipText = { ...tooltipText };
+
+    this.options.renderMonthName = (date) => date.toLocaleString(this.options.lang, { month: 'long' });
 
     if (!this.options.elementEnd) {
       this.options.allowRepick = false;

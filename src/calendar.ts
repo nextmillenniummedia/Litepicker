@@ -150,7 +150,7 @@ export class Calendar extends LPCore {
     } else {
       const monthName = document.createElement('strong');
       monthName.className = style.monthItemName;
-      monthName.innerHTML = date.toLocaleString(this.options.lang, { month: 'long' });
+      monthName.innerHTML = this.options.renderMonthName(date);
       monthAndYear.appendChild(monthName);
     }
 

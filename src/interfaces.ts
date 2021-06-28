@@ -68,6 +68,7 @@ export interface ILPConfiguration {
   footerHTML?: string | null;
   setup?: (picker: Litepicker) => void;
   tooltipNumber?: (totalDays: number) => number;
+  renderMonthName: (date: DateTime | null) => string;
   plugins?: string[];
   position?: string;
 
